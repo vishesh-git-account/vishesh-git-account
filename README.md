@@ -61,22 +61,20 @@ real-time updates, and scalable data access.
 
 ---
 
-### 🧠 [Edge-Computing Facial Recognition System](https://github.com/vishesh-git-account/AcademiX)
+### 🧠 [AcademiX — AI-Powered Edge-Computing Attendance System](https://github.com/vishesh-git-account/AcademiX)
 
-A browser-based facial recognition system that performs machine learning
-inference on the client to reduce backend processing.
+A full-stack attendance system that performs facial recognition directly in the browser using edge computing, enabling real-time face matching while reducing server-side ML processing.
 
 **Engineering Highlights**
 
-- Client-side inference using face-api.js
-- Real-time webcam processing pipeline
-- Low-latency facial detection and verification
-- Request throttling and in-memory caching
-- O(1) hash-map based lookups
-- MongoDB storage for 128-dimensional facial embeddings
-- Euclidean-distance similarity matching
+- Implemented **browser-side facial recognition** using face-api.js and TensorFlow.js to extract 128-dimensional facial descriptors.
+- Built a **real-time webcam processing pipeline** using HTML5 Canvas for continuous face detection and Euclidean-distance matching.
+- Engineered **real-time attendance notifications** using Socket.IO to update student dashboards immediately after attendance is recorded.
+- Implemented **JWT authentication and role-based access control** for Admin, Professor, and Student workflows.
+- Added **idempotent attendance logging** to prevent duplicate attendance records within a defined time window.
+- Optimized recognition by caching enrolled student embeddings in browser memory for **O(1) lookups**.
 
-**Tech:** JavaScript · face-api.js · MongoDB · Socket.io
+**Tech:** JavaScript · HTML5 Canvas · CSS3 · face-api.js · TensorFlow.js · Node.js · Express.js · Socket.IO · MongoDB · Mongoose · JWT · Bcrypt.js
 
 ---
 
