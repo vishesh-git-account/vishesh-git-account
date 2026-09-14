@@ -80,11 +80,20 @@ inference on the client to reduce backend processing.
 
 ---
 
-### 💬 [Chattrix](https://github.com/vishesh-git-account/Chattrix---A-chatting-app)
+### 💬 [Chattrix — Real-Time Chat Application](https://github.com/vishesh-git-account/Chattrix---A-chatting-app)
 
-A real-time chat application built around WebSocket-based communication.
+A full-stack real-time chat application built with React, Node.js, Express, MongoDB, and Socket.IO, featuring instant messaging, authentication, and real-time user presence.
 
-**Tech:** JavaScript · Node.js · Express.js · Socket.io
+**Engineering Highlights**
+
+- Implemented **real-time messaging** using Socket.IO for instant communication between connected users.
+- Built **JWT-based authentication** with login, signup, and logout workflows.
+- Implemented **persistent chat history** using MongoDB/Mongoose for storing and retrieving messages.
+- Added **online user indicators** and message timestamps for real-time conversation state.
+- Developed a modular **React frontend** with components for the sidebar, chat window, and authentication views.
+- Structured the application into separate **client and server layers** using React, Node.js, and Express.
+
+**Tech:** React.js · Node.js · Express.js · Socket.IO · MongoDB · Mongoose · JWT · Axios
 
 ---
 
